@@ -442,7 +442,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .team-item:hover .team-content h4 {
-    color: var(--bs-dark) !important;
+    color: red !important;
 }
 
 .team-item:hover .team-content p {
@@ -482,11 +482,14 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 /*** Footer End ***/
 
-.center-div {
-    margin: 0 auto; /* Centers horizontally */
-    float: none; /* Ensures it doesn't float to one side */
-  }
-
 #more, #more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12, #more13 {
     display: none;
 }
+
+.team-item {
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the divs inside their columns */
+  }
+  #row {
+    gap: 2rem; /* Optional: Add spacing between divs */
+  }
