@@ -432,7 +432,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 }
 
 .team-item:hover .team-content {
-    background: var(--bs-primary) !important;
+    background: var(--bs-dark) !important;
     color: var(--bs-dark) !important;
 }
 
@@ -445,7 +445,7 @@ h4, h5, h6, .h4, .h5, .h6 {
     color: red !important;
 }
 
-.team-item:hover .team-content p {
+.team-item:hover .team-content p:hover {
     color: var(--bs-white);
 }
 /*** Team End ***/
